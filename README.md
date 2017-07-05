@@ -1,37 +1,119 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<title>techplanet - Technology planet</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<!-- Custom styles for this template -->
+	<link href="css/justified-nav.css" rel="stylesheet" type="text/css">
+	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">
+<!-- 
 
-You can use the [editor on GitHub](https://github.com/geoffreymukuka/Techplanet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Technology planet
 
-Whenever you commit to this repository, GitHub Pages will run [TECHPLANET](https://techplanet.com/) to rebuild the pages in your site, from the content in your Markdown files.
+http://www.techplanet.com/tm-393-techplanet
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/geoffreymukuka/Techplanet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
+	<!-- HTML 5 shim for IE backwards compatibility -->
+		<!-- [if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+</head>
+<body>
+	<div id="main_container">
+		<div class="container" id="home">
+			<div class="header">
+				<a href="#">
+				</a>
+      			<form  action="#" method="get" class="navbar-form pull-right" role="search">
+      				<div class="form-group">
+      					<input type="text" class="form-control" placeholder="Search" id="keyword" name="keyword">
+      				</div>
+      				<button type="submit" class="btn btn-default" name="Search">Go</button>
+      			</form>
+				TECHPLANET             
+			</div>
+			<img src="images/header_image1.jpg" alt="header image" class="templatemo-header-img img-responsive cleaner">
+			<div class="navbar templatemo-nav" id="navbar">
+				<div class="navbar-header">		          	
+		          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		        </div>
+      			<div class="navbar-collapse collapse">
+			        <ul class="nav nav-justified">
+			          <li class="active"><a href="index.html">Home</a></li>
+	                  <li><a href="about.html">About</a></li>
+			          <li><a href="preview.html">Products</a></li>
+			          <li><a href="preview.html">Services</a></li>
+			          <li><a href="contact.html">Contact</a></li>
+			        </ul>
+		      	</div> <!-- nav -->
+	      	</div>
+			<div class="row" id="thumbnails_container">            
+				<div class="col-md-12">
+					<h2>TECHPLANET</h2>
+					<p>Fantasy is free responsive website template that can be applied for any website. This layout is based on <a rel="nofollow" href="http://getbootstrap.com" target="_parent">Bootstrap</a> framework which is compatible with mobile phones and tablets. No need to give a credit link when you use this template. You may <a rel="nofollow" href="http://www.templatemo.com/contact" target="_parent">contact us</a> if you have anything to say. Cras libero felis, iaculis eu ipsum et, semper blandit velit. Morbi hendrerit lacus sit amet tellus pellentesque congue. Vivamus sed adipiscing felis, non molestie velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum auctor justo eu nibh pharetra, nec rhoncus justo tincidunt. Donec ut venenatis mauris. Donec aliquam odio tempor nisl elementum adipiscing. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</p>
+                    <h3>Technology News</h3>
+                    <p>Duis nec porta risus, non auctor dui. Ut id sapien blandit, molestie lacus sit amet, hendrerit neque. Duis sed sem nibh. Etiam semper, justo at dictum porttitor, nisl dui tempor augue, eget ultrices nisi orci vitae quam. Integer id tellus consectetur, pellentesque neque nec, aliquam ligula. Curabitur urna enim, ultrices dapibus fringilla vel, volutpat nec est. Sed dignissim feugiat libero, non pulvinar libero consequat nec.</p>
+                    <h3>New Faces</h3>
+				</div>
+                
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_01.jpg" alt="Model Girl 1" class="img-responsive"><p>First Model</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_02.jpg" alt="Model Girl 2" class="img-responsive"><p>Model Two</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_03.jpg" alt="Model Girl 3" class="img-responsive"><p>Third Model</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_04.jpg" alt="Model Girl 4" class="img-responsive"><p>Model Four</p></a></div>
+				</div>
+                
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_05.jpg" alt="Model Girl 5" class="img-responsive"><p>Fifth One</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_06.jpg" alt="Model Girl 6" class="img-responsive"><p>Model Sixth</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_07.jpg" alt="Model Girl 7" class="img-responsive"><p>Seventh Model</p></a></div>
+					<div class="col-xs-6 col-sm-3 col-md-3"><a href="preview.html" class="thumbnail"><img src="images/templatemo_image_08.jpg" alt="Model Girl 8" class="img-responsive"><p>Model Eighth</p></a></div>
+				</div>
+				
+				<div class="col-xs-12 col-md-12">
+                	<a href="#" class="btn btn-primary" role="button">Previous</a>
+                    <a href="#" class="btn btn-primary" role="button">1</a>
+                    <a href="#" class="btn btn-primary" role="button">2</a>
+                    <a href="#" class="btn btn-primary" role="button">3</a>
+                    <a href="#" class="btn btn-primary" role="button">4</a>
+                    <a href="#" class="btn btn-primary" role="button">Next</a>
+			  	</div>
+                
+			</div> <!-- thumbnail area -->  
+		</div>
+		<footer class="container">
+			<div class="credit row">
+				<div class="col-md-6 col-md-offset-3">
+					<div id="techplanet_footer">
+						Copyright © 2017 <a href="#">techplanet</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="text-align: right">
+						<a rel="nofollow" href="http://www.facebook.com/techplanet" target="_parent">
+                        	<img src="images/facebook.png" alt="Like us on Facebook">
+                        </a>
+						<a href="#"><img src="images/twitter.png" alt="Follow us on Twitter"></a>
+						<a href="#"><img src="images/rss.png" alt="RSS feeds"></a>
+					</div>
+				</div>				
+			</div>
+		</footer>
+	</div>
+    <!-- TECHPLANET -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/techplanet_script.js"></script>
+</body>
+</html>
